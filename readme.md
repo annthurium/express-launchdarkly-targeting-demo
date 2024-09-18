@@ -20,7 +20,7 @@ Run the server:
 
 `npm start`
 
-If you load http://127.0.0.1:3000/ in the browser, you should see a "hello world" page.
+Load http://127.0.0.1:3000/ in the browser to see the application running.
 
 ## License
 
