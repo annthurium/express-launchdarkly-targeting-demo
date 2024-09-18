@@ -9,4 +9,8 @@ app.get("/", function (req, res) {
   res.send("Hello World");
 });
 
-app.listen(3000);
+const port = 3000;
+app.listen(port, function (err) {
+  if (err) console.log("Error in server setup");
+  console.log(`Server listening on localhost:${port}`);
+});
