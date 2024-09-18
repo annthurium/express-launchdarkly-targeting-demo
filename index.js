@@ -12,5 +12,5 @@ app.get("/", function (req, res) {
 const port = 3000;
 app.listen(port, function (err) {
   if (err) console.log("Error in server setup");
-  console.log(`Server listening on localhost:${port}`);
+  console.log(`Server listening on http://localhost:${port}`);
 });
